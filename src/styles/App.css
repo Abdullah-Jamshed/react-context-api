@@ -24,6 +24,31 @@
   color: white;
 }
 
+.bg {
+  height: 100vh;
+}
+
+.bg h1 {
+  padding: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.btn {
+  width: 150px;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 5px;
+  background: #f9f9f9;
+  border-radius: 16px;
+  border: 1px solid #f9f9f9;
+}
+
+.btn:active{
+  background: #b4b2b2;
+  border: 1px solid #b4b2b2;
+
+}
+
 .App-link {
   color: #61dafb;
 }

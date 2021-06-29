@@ -11,7 +11,7 @@ const ContextDemo = () => {
     <div style={{ backgroundColor: `${theme === "light" ? "#fff" : "#000"} ` }} className='bg'>
       <Text>{theme}</Text>
       <button onClick={toggle} className='btn'>
-        toggle theme
+        Toggle Theme
       </button>
     </div>
   );

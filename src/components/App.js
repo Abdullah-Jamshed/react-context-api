@@ -4,7 +4,7 @@ import ThemeProvider from "../context/ThemeContext.js";
 import ContextDemo from "./ContextDemo";
 
 function App() {
-  const [heading, setHeading] = useState("REACT CONTEXT API");
+  const [heading, setHeading] = useState("REACT-CONTEXT-API");
   return (
     <div className='App'>
       <h1>{heading}</h1>
